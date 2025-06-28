@@ -1,0 +1,1268 @@
+/* **************** */
+
+body {
+  /* font-family: "Sedan", serif; */
+
+
+  margin: 0;
+  padding: 0;
+  background-image: url(/img/back\ hd\ Copilot_20250611_185837.png);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  box-sizing: border-box;
+  color: #ebe4e4;
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+/* bases de colores  */
+
+
+
+header {
+  background-color: none;
+}
+
+main {
+
+  padding-top: 3em;
+  /* Ajustá esto al alto real del nav */
+}
+
+/* **************** nav */
+/* inicio de nav */
+nav {
+  /* height: 1em !important;
+  background-color: #8b1a746c !important; */
+  font-size: 18px !important;
+  text-align: justify;
+  color: RGB(106, 107, 108);
+  font-family: 'Segoe UI'sans-serif !important;
+
+  text-decoration: none;
+  background-image: url(/img/back\ hd\ Copilot_20250611_185837.png) !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* nav 2  */
+.nav {
+  position: fixed;
+  z-index: 10000;
+  width: 100%;
+  background-color: none;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 1000000;
+  /* background-color: #8B1A74 !important; */
+  /* requiere important por bstp */
+  display: flex;
+  align-items: center !important;
+
+}
+
+.navbar-collapse,
+.navbar-expand-lg,
+.collapse,
+.navbar,
+.navbar-nav {
+  /* son todas clases de boots  */
+  justify-content: space-around;
+}
+
+nav ul {
+  list-style: none;
+  margin: auto;
+}
+
+nav ul li a {
+  /* color: #333333 !important; */
+  color: #f7f4f4 !important;
+  text-decoration: none;
+  text-align: center;
+  
+ 
+  /* ocupa el ancho del padding trabajan juntos */
+  display: block;
+  margin-top: 1em;
+  border-radius: 15px;
+
+  transition: all 0.5s ease;
+}
+
+nav button {
+  margin: auto;
+  /* centrado del button de bst con logo nuevo  */
+}
+
+/* boton cafe desplegable */
+.navbar-toggler {
+  margin: 1em 0;
+}
+
+nav ul li a:hover,
+.navbtn:hover {
+  border-radius: 5%;
+  background-color: none;
+  color: #F16D64 !important;
+  transition: color 0.3s ease;
+
+}
+
+
+
+
+/* ****** index */
+
+ 
+
+.bienvenido {
+   
+   
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.315);
+}
+
+.bienvenidos p {
+
+  font-size: 16px;
+  padding: 0.5em ;
+ 
+  margin : 1em;
+  font-family: 'Segoe UI',
+    sans-serif;
+  /* font-family: "Nunito", sans-serif; */
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: none solid rgb(12, 17, 21);
+  padding: 1.5em;
+  background-color: #0c08085d;
+  border-radius: 15px;
+}
+
+.bienvenidos img {
+  border-radius: 15px;
+}
+
+/* bienvenido aside  */
+.estrellas {
+  height: 100%;
+}
+
+.estrellas img,
+.nav img {
+  border-radius: 50%;
+  box-shadow: white 0 0 10px;
+  padding: 0.5em;
+}
+
+
+
+/* links y hover  */
+
+.estrellas a {
+
+  text-decoration: none;
+  background-color: none;
+  margin-bottom: 5em;
+}
+
+/* formacion  */
+
+
+
+
+/*  botones generales  */
+.btn a {
+  /* background-color: #0c111550; */
+  background-color: #f0392c;
+  color: #F8F5E6;
+  box-shadow: 0 2px 6px #000000a1;
+  margin: auto;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+  font-size: 1rem;
+  font-family: 'Segoe UI', sans-serif;
+  width: 100%;
+  height: 100%;
+
+}
+
+.btn a:hover {
+  background-color: #F8F5E6;
+  color: #461c19 !important;
+  transition: color 0.3s ease;
+  font-weight: bolder;
+}
+
+.btn {
+  border-left: 5px solid #c08dda;
+  padding-left: 15px;
+  width: 100%;
+  padding: 10px;
+
+}
+
+
+
+#reserva a:hover {
+  background-color: #F8F5E6;
+  color: #F16D64 !important;
+  transition: color 0.3s ease;
+}
+
+/* footer */
+
+footer a {
+  /* background-color: #B4227D; */
+  color: #333333;
+  text-decoration: none;
+  text-align: center;
+  /* ocupa el ancho del padding trabajan juntos */
+  display: block;
+  margin: auto;
+
+}
+
+
+/* inicioo de footer ********************/
+footer p {
+  color: #fff;
+  text-align: center;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Segoe UI',
+    sans-serif;
+  font-optical-sizing: auto;
+  /* background-color: #E6E9EE; */
+  /*  font-variant-caps: all-small-caps; */
+}
+
+footer h5 {
+  color: #fff;
+  text-align: center;
+  /* font-family: "Nunito", sans-serif; */
+  font-optical-sizing: auto;
+  font-family: 'Segoe UI',
+    sans-serif;
+}
+
+footer li {
+  list-style: none;
+}
+
+i {
+  font-size: 20px;
+  font-style: italic;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+
+}
+
+
+
+
+/*  banner entrada relativo con el texto absoluto*/
+.banner-entrada {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1em;
+  align-items: center;
+  height: 90px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* .banner-entrada img {
+  width: 100%;
+  display: block;
+  image-rendering: auto;
+   
+} */
+
+/* opacidad de baner */
+
+.texto-entrada {
+  padding: 0.5em;
+  width: 100%;
+  /*  height: 25%; */
+  position: absolute;
+  left: 0;
+  top: 10%;
+   color: white;
+   
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  border-radius: 15px;
+}
+
+.texto-entrada h1 {
+  color: white;
+  text-shadow: rgb(0, 0, 0) 5px 5px 5px;
+  font-weight: 100;
+  /* font-family: "Nunito", sans-serif; */
+  font-family: 'Segoe UI',
+    sans-serif;
+  font-optical-sizing: auto;
+  font-size: 12px;
+  color: #5a2a83;
+  margin-bottom: 25px;
+  border-left: 5px solid #c08dda;
+  padding-left: 15px;
+}
+
+/* posiciones base ******************************/
+.contenedor {
+  width: 90%;
+  margin: auto;
+
+  align-items: center;
+
+
+}
+
+.contenedor-2 {
+  width: 90%;
+  margin: auto;
+  margin-top: 5em;
+
+}
+
+.centro {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.padding {
+  padding-bottom: 1em;
+}
+
+.div-tit {
+  color: rgb(247, 244, 244);
+  border-radius: 20px 0;
+  text-align: center;
+  font-size: 16px;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  background-color: none;
+
+
+}
+
+.clearfix {
+  clear: both;
+}
+
+
+
+/* inicio de  fixed *******************************************************/
+
+/* ..redes  con font awesome  */
+.redes {
+  display: flex;
+
+  height: 100%;
+  right: 0.5em;
+  top: 0%;
+  font-size: 200%;
+  position: fixed;
+  z-index: 200;
+  /* background-color: yellow; */
+}
+
+.redes-footer {
+  /* background-color: #5a2a83; */
+  height: 100%;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.redes-footer i {
+  font-size: 2em;
+}
+
+
+
+.fa-instagram:hover,
+.fa-whatsapp:hover,
+.fa-twitter:hover,
+.fa-envelope:hover,
+.fa-linkedin:hover {
+  /* transform: scale(1.5); */
+  transition: all 400ms ease-in-out;
+  text-shadow: white 0 0 10px;
+}
+
+/* fin de redes fixed ********************************** */
+
+
+
+
+/* boton volver fixed **************** */
+
+.fa-arrow-alt-circle-up {
+  opacity: 0.7;
+  padding-top: 10em;
+  font-size: 150%;
+  color: aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.fa-arrow-alt-circle-up:hover {
+  opacity: 1;
+  color: orangered;
+  text-shadow: #dc3545 0 0 10px;
+}
+
+
+
+
+
+.empresa p {
+  text-align: center;
+
+  display: inline-block;
+}
+
+/* fin de footer ***************************************/
+
+
+
+/* inicio seccion home bienvenidos */
+
+/* seccion bienvenida referencias ***************index  */
+
+.estrellas {
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  text-align: center;
+  border-radius: 20px 0 20px 0;
+  font-weight: 400;
+  padding: 0.5em;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding-top: 3em;
+}
+
+aside div {
+  padding: 10px;
+  margin: 1em;
+}
+
+.agenda,
+.agenda h1 {
+  color: #ebe4e4;
+  background-color: #0c111513;
+  font-size: 12px;
+
+   
+  margin: auto;
+  padding-top: 1em;
+   
+}
+
+.agendas {
+
+  border-radius: 15px;
+
+
+
+}
+
+.agendas-hiba {
+
+  padding-bottom: 2em;
+  border-radius: 15px;
+
+  background-color: #ebe4e425;
+  font-size: 16px;
+  margin-left: 1px;
+}
+
+
+
+
+/* espacio entre cajas */
+
+.turnos {
+  /* background-color: #f30e668f; */
+  display: flex;
+  flex-direction: column;
+  height: max-content;
+  /* apila en columna */
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.24);
+  text-align: center;
+   
+
+
+}
+
+/* botones . */
+.estilotmv {
+   
+  margin:   auto;
+  padding: 20px;
+  background-color:#fafcfb;
+  border: 2px solid #c08dda;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.estilotmv h2{
+    font-size: 1.3rem; color: #5a2a83; margin-bottom: 25px; border-left: 5px solid #c08dda; padding-left: 15px; 
+            
+}
+
+
+.pasos {
+  /* display: flex; align-items: center;   gap: 40px; padding: 40px;  margin: auto; flex-wrap: wrap; */
+  /* background-color: red; */
+  height: 100%;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.315);
+border-radius: 15px;
+margin-bottom: 1em;
+}
+
+.pasoi {
+  height: 100%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  color: #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.315);
+border-radius: 15px;
+
+}
+
+.pasoi img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15px;
+  margin: auto;
+ 
+
+}
+
+.pasod {
+  height: 100%;
+  padding: 1em;
+
+}
+
+.pasod button,
+.pasod a {
+  margin-bottom: 0;
+}
+
+.barrita {
+  font-size: 1.5rem;
+  color: #5a2a83;
+  margin-bottom: 5px;
+  border-left: 5px solid #c08dda;
+  padding-left: 15px;
+}
+
+
+
+/* bstp use la base del boton danger */
+
+
+
+
+
+
+
+/* inicio seccion nosotros historia********************************************/
+/* .mosaico {
+  text-align: center;
+}
+
+.mosaico h5 {
+  text-decoration: underline;
+  padding: 1em;
+}
+
+.mosaico img {
+  margin: 1em;
+  border-radius: 50%;
+  box-shadow: white 0 0 10px;
+  padding: 0.5em;
+} */
+
+/* fin de seccion nosotros historia  */
+
+/* inicio seccion  publicaciones ******/
+.superior {
+  text-align: center;
+  padding: 1em;
+  color: #FAF5F4;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  border: solid salmon 1px;
+  box-sizing: border-box;
+
+  margin: 2em;
+
+
+  /* border:  solid rgb(0, 255, 55) 3px; */
+
+
+}
+
+.recomenda {
+  padding: 5px;
+  background-color: #ffffff;
+  ;
+  border-radius: 20px;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.315);  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  border: solid purple 1px;
+  box-sizing: border-box;
+  
+}
+
+.public {
+  /* border:  solid red 3px; */
+  margin-bottom: 1em;
+  display: flex;
+  justify-content: space-around;
+
+}
+ 
+#quesi{
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.315);
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 1em;
+  margin: auto;
+  margin-top: 2em;
+  
+   color: #3a105f;
+   background-color:rgb(241, 241, 219);
+ 
+}
+#queno {
+
+  font-size: 16px !important;
+  max-height: max-content !important;
+
+}
+
+
+.consejos {
+  font-size: 16px !important;
+
+  border-radius: 15px;
+  padding: 0.5em;
+
+   /* margin: 40px auto; padding: 30px; background-color: #1801018f; border-radius: 16px; box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06); font-family: 'Segoe UI', sans-serif; color: #f3eeee; */
+
+    
+  box-sizing: border-box;
+  border-radius: 15px;
+  padding: 2em;
+  margin: 1em;
+  font-weight: lighter; 
+   color: rgb(245, 245, 202);
+background-color:  #07000c52;
+}
+
+
+.superior img {
+  border-radius: 15px;
+  padding: 0.5em;
+  margin: 0.5em;
+  float: left;
+
+}
+
+.superior a {
+  text-decoration: none;
+  color: white;
+}
+
+
+/* .empleado h5,
+.empleado h6,
+.empleado p {
+  color: #FAF5F4;
+  font-variant: small-caps;
+}
+.empleado:hover {
+  box-shadow: white 0 0 10px;
+
+} */
+
+
+/* seccion sumate */
+.sumate img {
+  border-radius: 30%;
+  width: 100%;
+}
+
+
+
+/*  formacion  */
+
+
+
+/* inicio sociedades gpt */
+
+
+.caption {
+  margin: auto;
+  font-size: 16px;
+  text-align: center;
+}
+
+
+
+/* 
+.carousel-item h5,
+.carousel-item img {
+  border-radius: 20px;
+  margin: 0 1em;
+} */
+/* <!-- seccion formacion   --> */
+.cafetera {
+  border-radius: 0.5em;
+  margin: auto;
+}
+
+.cafeteras {
+  margin: 25px;
+  /* background-color: aqua; */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  font-size: 1.2em;
+  background-color: red;
+  padding: 1em;
+  background-color: #28074680;
+  border-radius: 15px;
+
+
+
+}
+
+.cafetera p {
+  color: rgb(236, 228, 228);
+  margin: auto;
+  width: 100%;
+  display: block;
+  padding: 1em;
+  text-align: center;
+  font-size: 20px;
+}
+
+/* inicio galeria */
+/* maquetado con float */
+
+/* calculo de columnas  */
+/* primera galeria hecha con float  */
+
+
+#faq {
+  margin: 1em;
+}
+
+ 
+
+
+
+
+
+/* .btn-reset:hover {
+  color: aliceblue;
+
+} */
+
+.novedades {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 20px 0;
+  margin-bottom: 1em;
+  padding: 0.5em;
+  border: solid aqua 1px;
+  font-weight: 200;
+}
+
+.novedades h3 {
+  /*    font-size: 50%em; */
+  text-align: center;
+  text-transform: capitalize;
+  color: wheat;
+  font-style: italic;
+  margin-bottom: 2em;
+}
+
+.novedades h4 {
+  border: solid 1px rgb(0, 255, 255);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: aqua;
+  text-indent: 2em;
+  border-radius: 10px;
+  padding: 0.5em;
+  font-size: 16px;
+  margin-bottom: 2em;
+  text-align: center;
+  font-weight: 200;
+}
+
+.novedades p {
+  /* border:  solid 1px rgb(0, 255, 255); */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: wheat;
+  text-indent: 2em;
+  text-align: justify;
+  border-radius: 10px;
+  padding: 0.5em;
+  margin-bottom: 2em;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 1em;
+}
+
+.novedades i {
+  color: #dc3545;
+  font-size: 16px;
+}
+
+/*inicio promociones */
+/* lista de precios  */
+.tabla-precios {
+  background-color: rgba(0, 0, 0, 0.479);
+  padding: 1em;
+  margin: auto;
+  width: 80%;
+  /*   background-color: #070103c7; */
+  text-align: center;
+  color: bisque;
+  border-radius: 20px;
+}
+
+.tabla-precios th {
+  color: crimson;
+}
+
+.gift {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+
+/* gift card ........................*/
+
+.cont-tj-gift {
+  padding: 2em 1em 1em 1em;
+  width: max-content;
+  transition: all 300ms ease-out;
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+/* fin de promociones */
+
+/* inicio seccion contacto   */
+
+.formulario {
+  background-color: rgba(0, 0, 0, 0.315);
+  border-radius: 20px 0;
+  width: 100%;
+  border: solid rgba(255, 0, 119, 0.438);
+  padding: 20px;
+}
+
+
+
+.botones-contacto {
+  text-align: center;
+  margin: auto;
+
+}
+
+.mensaje-exito p {
+  color: aqua;
+  font-size: 1.5em;
+}
+
+.logo-aside {
+  text-align: center;
+}
+
+iframe {
+  border-radius: 20px 0;
+}
+
+/* fin seccion contacto */
+
+
+
+.btn-volver {
+  margin: auto;
+  width: 80%;
+}
+
+.btn-volver a {
+  padding: 0.5em;
+  border-radius: 10px;
+  color: crimson;
+  background-color: aqua;
+}
+
+
+
+
+
+
+
+
+
+
+/* correccion de los row de bstp no respeta contenedor */
+.row {
+  --bs-gutter-x: 0rem;
+}
+
+/* animaciones ************************** */
+
+/* animacion entrada banners******************* */
+
+.entrada {
+  animation-name: MiAnimacionentrada;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes MiAnimacionentrada {
+  from {
+    font-size: 100%;
+    margin-left: 100%;
+  }
+
+  to {
+    font-size: 100%;
+    margin-left: 0;
+  }
+}
+
+/* animacion zoom banners ***************************/
+.autozoom {
+  animation-name: MiAnimacionautozoom;
+  animation-duration: 5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes MiAnimacionautozoom {
+  from {
+    transform: scale(1.5);
+  }
+
+  to {
+    transform: scale(1);
+  }
+}
+
+
+/* transicion  blanco y negro */
+
+.byn {
+  transition: ease-in-out 0.3s;
+  filter: grayscale(1);
+}
+
+.sabor es-tj:hover,
+.cafetera:hover,
+.curso:hover {
+  filter: grayscale(0);
+  box-shadow: rgb(238, 223, 223) 5px 5px 20px;
+}
+
+.contenedor-boxes {
+  width: 80%;
+  margin: auto;
+
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.grilla {
+
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.cuadro {
+  position: relative;
+  border-radius: 8px;
+  margin: 1px;
+  box-sizing: border-box;
+  margin-bottom: 2em;
+}
+
+
+.cuadro a {
+  display: block;
+  width: 100%;
+  height: 100%;
+
+}
+
+
+.cuadro img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 15px;
+  box-sizing: border-box;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0.5em;
+  margin: 1em;
+  width: 90%;
+  height: 50%;
+  background-color: #F16D64;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  font-weight: bold;
+  font-size: 16px;
+
+  border-radius: 15px;
+  box-sizing: border-box;
+
+
+}
+
+.overlay span {
+  /* padding: 10px;
+  border-radius: 15px;
+  font-size: 16px; */
+
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  color: #fffeff;
+  font-weight: 500;
+  text-align: center;
+  line-height: 1.6;
+  padding: 1rem;
+  margin: auto;
+}
+
+
+.cuadro:hover .overlay {
+  background-color: #F16D64;
+  border-radius: 15px;
+  /* más oscuro al pasar */
+}
+
+.cuadro:hover .overlay {
+  opacity: 1;
+
+
+}
+
+/* .hidden {
+  display: none;
+} */
+
+h2 {
+  font-size: 2em;
+}
+
+.revistas-sociedades {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fafafa;
+  border-radius: 16px;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+.revistas-sociedades h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  color: #333;
+  text-align: center;
+}
+
+.revista-lista {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.revista-lista li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  color: #444;
+  list-style: none;
+}
+
+.revista-lista a {
+  color: #6c63ff;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.revista-lista a:hover {
+  text-decoration: underline;
+}
+
+li {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+#reserva a {
+  background-color: #F16D64;
+  color: #F8F5E6;
+  box-shadow: 0 2px 6px #000000a1;
+}
+
+#reserva a:hover {
+  background-color: #F8F5E6;
+  color: #F16D64 !important;
+  transition: color 0.3s ease;
+}
+
+.turnera {
+  /* background-color: red; */
+  box-sizing: border-box;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.turnito {
+  /* background-color: aqua; */
+  margin: auto;
+}
+
+ 
+
+#pmf p {
+  font-size: 14px !important;
+  border: solid 1px crimson;
+  border-radius: 15px;
+  padding: 0.5em;
+}
+
+.auto {
+  /* display: grid;
+  grid-template-columns: repeat(4, 1fr); */
+  /* 4 columnas */
+
+  margin: auto;
+
+  display: flex;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  border-radius: 15px;
+
+  max-width: fit-content;
+  margin: auto;
+}
+
+.item img {
+  width: 100%;
+  /*  */
+  /* Tamaño máximo de imagen */
+  /* height: auto; */
+  border-radius: 15px;
+}
+
+
+
+/* conuslta  */
+ 
+
+
+/* colores */
+
+.titulo-blanco {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 15px;
+  background-color: #fafafa;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+}
+.cancelacion a{
+   display:inline-block;
+     padding:6px 12px;
+     font-size:0.75rem;
+     color:#39cee9d7  ;
+   
+     border:1px solid aqua;
+     border-radius:4px;
+     text-decoration:none;
+     transition:background-color 0.3s;
+     margin-bottom: 1em;
+}
+.cancelacion a:hover{
+  background-color: black !important;
+  color: crimson;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}

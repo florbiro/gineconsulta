@@ -1,0 +1,452 @@
+body {
+  background-color: aquamarine;
+  background-image: url(../images/admin/flyer-1.jpg);
+}
+
+/* login admin  */
+
+.holder-50 {
+  width: 50%;
+  margin: auto;
+}
+input {
+  text-align: left;
+}
+.tabla-prueba {
+  color: aqua;
+  width: 50%;
+  margin: auto;
+  margin-top: 4em;
+  margin-bottom: 2em;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.tabla-prueba caption {
+  color: crimson;
+  background-color: black;
+  padding: 1em;
+}
+
+.mensaje-error p {
+  margin-top: 2em;
+  font-size: 5em;
+}
+
+.entrada-salida{
+  text-align: center;
+}
+.btn-panel{
+  background-color:#002060;
+}
+.btn-seccion{
+background-color:rgb(4, 49, 4);
+}
+.btn-redondo{
+  width: 10em;
+  height: 10em;
+  border-radius: 50%;
+}
+.btn-redondo:hover{
+  box-shadow: aqua 0 0 10px;
+  background-color:rgb(99, 16, 33);
+}
+
+/* tablas admin */
+.tabla-admin {
+  background-color: rgba(0, 0, 0, 0.733);
+  width: 100%;
+  border: solid rgba(0, 255, 255, 0.438);
+  padding: 20px;
+  color: rgb(245, 222, 179);
+  text-align: left;
+}
+.search {
+  padding: 1em;
+  text-align: center;
+  color: aqua;
+ 
+  width: 100%;
+  margin-left: 0;
+}
+.btn-sumar {
+  background-color: aqua;
+  color: crimson;
+}
+.search strong {
+  color: crimson;
+}
+hr {
+  color: aqua;
+  
+}
+hr:not([size]) {
+  height: 4px;
+  
+}
+
+.listado :nth-child(4) {
+  text-indent: 4em;
+  text-align: justify;
+}
+
+.tabla-admin thead {
+  font-size: large;
+  font-style: italic;
+  font-variant: small-caps;
+}
+th {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: crimson;
+  font-weight: bold;
+}
+
+/* control de colores */
+.fondo-color {
+  text-align: center;
+}
+.centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: max-content;
+  margin: 2em;
+}
+.cuadrados {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+  border: solid black;
+
+  display: inline-flex;
+}
+#negro {
+  background-color: rgba(0, 0, 0, 0.527);
+  color: aqua;
+  border: solid aqua;
+  font-weight: bold;
+}
+/* redondeles selectores */
+#blanco {
+  background-color: rgb(250, 243, 243);
+  color: #5f1816;
+  font-weight: bold;
+  border: solid #5f1816;
+}
+#azul {
+  background-color: rgb(2, 23, 63);
+  color: #fde498;
+  border: solid rgb(253, 228, 152);
+  font-weight: bold;
+}
+/* agregar */
+.contacto-1 {
+  margin: auto;
+  align-items: center
+}
+
+
+/* tablas  responsive */
+
+
+@media screen and (max-width: 320px) {
+  table {
+    display: block;
+    overflow-x: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  table {
+     /*  width:100%; */
+  }
+  .table th {
+    /*   display: none; */
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+  }
+  tr:nth-of-type(2n) {
+      background-color: inherit;
+  }
+  tr td:first-child {
+     
+  /*     font-weight:bold; */
+      font-size:1.3em;
+      text-align: left;
+  }
+  tbody td {
+      display: block;
+      text-align:left;
+  }
+  tbody td:before {
+      content: attr(data-th);
+      display: block;
+     /*  text-align:center; */
+
+  }
+}
+
+
+
+
+
+/* eltras   */
+
+/* p{
+  font-size: 20px;
+} */
+
+
+/* *********** fondo  */
+/* .claro{
+  background-color: #E6D6DE;
+  color: #0C1115;
+  font-size: 16px;
+
+} */
+ 
+
+/* transicion de la tarjeta */
+/* .cont-tj-gift img {
+  transition: all 300ms ease-out;
+}
+
+.cont-tj-gift:hover {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.cont-tj-gift:hover img {
+  border-radius: 30px;
+  transform: scale(1.2);
+  box-shadow: white 0 0 10px;
+}
+
+.gift-lista {
+  color: aqua;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 0.5em;
+  border-radius: 20px;
+}
+
+.gift-lista ol li {
+  padding-top: 0.5em;
+  color: aqua;
+} */
+
+/* animacion giro ver animaciones  */
+/* .panel-general {
+  
+  text-align: center;
+  border-radius: 20px 0;
+  color: rgb(29, 11, 65);
+}
+
+.panel {
+  position: relative;
+  border-radius: 20px 0;
+  margin: 2em;
+}
+
+.panel img {
+  width: 100%;
+  padding: 1em;
+  margin: 1em;
+  border-radius: 20px 0;
+  box-shadow: black 5px 5px 20px;
+  border: solid crimson 3px;
+  box-sizing: border-box;
+}
+
+.panel p {
+  color: rgb(29, 11, 65);
+  font-size: 16px ;
+  text-align: center;
+  text-indent: 0;
+}
+
+.panel h3 {
+  border: solid crimson 1px;
+  background-color: rgba(0, 0, 0, 0.747);
+  color: aqua;
+  width: 100%;
+  padding: 5px;
+  border-radius: 20px 0;
+  position: absolute;
+  top: 6em;
+  left: -1em;
+} */
+
+/* inicio seccion sabores ********************************** */
+
+/* zigzag de fotos  con left right  pseudo */
+
+/* .sabores {
+  border-radius: 20px 0;
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.33);
+  margin-bottom: 1em;
+}
+.sabores p {
+  text-indent: 4em;
+  text-align: justify;
+}
+.sabores a {
+  text-decoration: none;
+  color: orangered;
+  font-size: 1.5em;
+  text-decoration: underline;
+}
+.sabo res:nth-child(even) {
+  /* par */
+/* float: right;
+  color: orange;
+} */
+/* .sabores:nth-child(even) img {
+  float: left;
+}
+
+.sabores:nth-child(odd) {
+   
+  float: left;
+  color: rgb(220, 20, 60);
+}
+
+.sabores:nth-child(odd) img {
+  float: right;
+}
+
+.sabores h4 {
+  font-size: 1.5em;
+  font-style: italic;
+  font-weight: bold;
+  border-bottom: 1px solid rgb(199, 23, 23);
+  padding-bottom: 0.5em;
+}
+
+.sabores img {
+  border-radius: 20px 0;
+  box-sizing: border-box;
+  margin: 0.5em;
+} */
+
+/* inicio del giro animado  
+aside-compra cambia x giro*/
+
+.giro {
+  /*  border: solid red; */
+  /* text-align: center; */
+  margin-top: 1em;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  box-sizing: border-box;
+}
+
+.giro img {
+  border-radius: 40px;
+
+  perspective: 500px;
+  cursor: pointer;
+}
+
+.giro h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.giro p {
+  color: rgb(0, 255, 255);
+}
+
+.margin-top{
+  margin-top: 1em;
+}
+
+
+
+
+
+
+/* Estilo al hacer scroll: fondo blanco con letras negras */
+  /* nav.solid {
+    background-color: white;
+    color: black;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  nav.solid a {
+    color: black;
+  }
+
+  nav a {
+    text-decoration: none;
+    margin-right: 20px;
+    font-weight: bold;
+  } */
+
+  
+/* h1, h2,
+h3, h4,
+h5, p {
+  color: black;
+  
+  text-shadow: #333333;
+  padding: 0.5em;
+  text-align: justify;
+  text-indent: 2em;
+} */
+
+
+/* inicio galeria brunch maquetado con wrap lfexbox ************ */
+.galeria-brunch {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeria-brunch .foto img {
+  width: 100%;
+  display: block;
+  /*  padding: 0.5em; */
+  border-radius: 1em;
+}
+
+.galeria-brunch .foto:nth-child(odd) {
+  background-color: rgb(220, 20, 60);
+  border-radius: 20px 0;
+}
+
+.gift img {
+  margin: 1em;
+  padding: 1em;
+}
+
+
+.foto:hover {
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.galeria-shop {
+  position: relative;
+}
+
+.galeria-shop img {
+  border-radius: 40px;
+  cursor: pointer;
+}
+
+.galeria-shop h3 {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.galeria-shop p {
+  color: rgb(0, 255, 255);
+}
