@@ -54,3 +54,8 @@ git push -u origin main
 git remote add origin https://github.com/florbiro/gineconsulta.git
 git branch -M main
 git push -u origin main
+
+
+ALT Z ACHICA 
+comentar 
+descomentar 

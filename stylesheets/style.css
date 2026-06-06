@@ -658,8 +658,8 @@ border-radius: 15px;
   margin: auto;
   margin-top: 2em;
   
-   color: #3a105f;
-   background-color:rgb(241, 241, 219);
+   color: rgb(241, 241, 219);
+   /* background-color:rgb(241, 241, 219) */;
  
 }
 #queno {
